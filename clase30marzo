@@ -1,0 +1,35 @@
+package clase30marzo;
+
+import java.util.Scanner;
+
+
+public class Clase30marzo {
+
+  
+    public static void main(String[] args) {
+        
+        int insta=0, twi=0,face=0,tik=0,total;
+        Scanner entrada = new Scanner(System.in);
+        String nom = "Angie ";
+        String ape ="Rodriguez";
+        System.out.println("INFLUENCER "+nom+" APELLIDO "+ape);
+        //con sout y tabulador se completa automáticamente System.out.println("")\\
+        System.out.println("Por favor ingresar el número de seguidores de instagram: ");
+        insta=entrada.nextInt();
+        System.out.println("Por favor ingresar el número de seguidores de twitter: ");
+        twi=entrada.nextInt();
+        System.out.println("Por favor ingresar el número de seguidores de facebook: ");
+        face=entrada.nextInt();
+        System.out.println("Por favor ingresar el número de seguidores de tik tok: ");
+        tik=entrada.nextInt();
+        System.out.println("total de seguidores de instagram : "+insta);
+        System.out.println("total de seguidores de twitter: "+twi);
+        System.out.println("Total de seguidores de facebook: "+face);
+        System.out.println("Total de seguidores de tiktok: "+tik);
+        total=insta+twi+face+tik;
+        System.out.println("Total de seguidores : "+total);
+                
+
+    }
+    
+}
